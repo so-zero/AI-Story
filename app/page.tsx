@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import StoryGenerator from "./components/StoryGenerator";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <Link href="/library">도서목록</Link>
         </Button>
       </div>
+      <StoryGenerator />
     </div>
   );
 }
